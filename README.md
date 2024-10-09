@@ -37,10 +37,8 @@ To use this script, you need PowerShell installed on your Windows system. This s
 
 Clone the repository or download the script directly from the repository page:
   
-  `powershell
-  git clone https://github.com/yourusername/Directories-Access-History.git`
-
-Alternatively, you can download the script as a .ps1 file and save it to a directory of your choice.
+  ```powershell
+  git clone https://github.com/yourusername/Directories-Access-History.git
 
 ### Usage
 
