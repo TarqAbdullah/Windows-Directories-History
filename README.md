@@ -1,10 +1,13 @@
 # Directories Access History
 
+YT Tutorial: https://youtu.be/12nLaCDIqEc
+
 PowerShell script to scan directories within a specified path and report on directories that have not been accessed within a specified number of days. This is useful for system administrators who want to monitor directory access patterns, identify potentially abandoned directories, or optimize storage by removing or archiving unused folders.
 
 ## Table of Contents
 
 - [Features](#features)
+- [Use Cases](#use-cases)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -22,6 +25,16 @@ PowerShell script to scan directories within a specified path and report on dire
 - Retrieves the owner of each directory to determine potential last access users.
 - Outputs a detailed report listing each directory’s path, last access time, and owner.
 
+## Use Cases
+
+This script is valuable in various scenarios, such as:
+
+1. **Storage Optimization**: Identify directories that haven’t been accessed in a long time, making it easier to clean up storage by archiving or deleting old, unused folders.
+2. **Security Audits**: Retrieve directory ownership information to ensure that sensitive folders are not owned by unauthorized users or have not been accessed recently, which could indicate potential security risks.
+3. **Compliance Monitoring**: In environments with strict data retention policies, use this script to ensure that directories are being accessed regularly, verifying compliance with internal or external data usage policies.
+4. **Resource Management**: For shared directories, monitor user access patterns to understand how resources are being used and adjust resource allocations or permissions as needed.
+5. **Migration Planning**: During system or data migrations, identify actively used directories versus those that can be deprioritized, making the migration process more efficient.
+
 ## Getting Started
 
 To use this script, you need PowerShell installed on your Windows system. This script was tested on PowerShell 5.1 and above.
@@ -35,18 +48,16 @@ To use this script, you need PowerShell installed on your Windows system. This s
 
 ### Installation
 
-Clone the repository or download the script directly from the repository page:
+- Clone the repository or download the script directly from the repository page:
   
   ```powershell
   git clone https://github.com/yourusername/Directories-Access-History.git
 
 ### Usage
 
-1- Open PowerShell with administrative privileges.
-
-2- Navigate to the directory containing the script.
-
-3- Run the script using the following command:
+- Open PowerShell with administrative privileges.
+- Navigate to the directory containing the script.
+- Run the script using the following command:
   
   ```powershell
   .\Directories_Access_History.ps1
@@ -63,19 +74,6 @@ Clone the repository or download the script directly from the repository page:
   ```powershell
   $thresholdDays = 90
 
-### Example
-
-Here's an example configuration and how it would be executed:
-  
-  ```powershell
-  # Define the directory to scan and the threshold in days
-  $baseDirectory = "C:\Users\Public\Documents"
-  $thresholdDays = 30
-
-  # Run the script
-  .\Directories_Access_History.ps1
-
-The above example will scan the `C:\Users\Public\Documents` directory and flag any subdirectories that haven’t been accessed in the past 30 days.
 
 ### Output
 
