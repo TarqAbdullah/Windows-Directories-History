@@ -1,5 +1,7 @@
 # Windows-Directories-History
 
+YT Tutorial: https://youtu.be/12nLaCDIqEc
+
 This PowerShell script recursively scans a specified directory in a Windows environment, generating statistics on recent access times and ownership for each subdirectory. It's a useful tool for system administrators or users who need insights into directory access patterns and want to identify unused or rarely accessed folders. The script outputs both a summary of its findings and a detailed report in CSV format.
 
 ## Features
