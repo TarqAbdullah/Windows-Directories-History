@@ -51,7 +51,7 @@ To use this script, you need PowerShell installed on your Windows system. This s
 - Clone the repository or download the script directly from the repository page:
   
   ```powershell
-  git clone https://github.com/yourusername/Directories-Access-History.git
+  git clone https://github.com/TarqAbdullah/Windows-Directories-History.git
 
 ### Usage
 
