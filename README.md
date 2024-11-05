@@ -2,7 +2,7 @@
 
 YT Tutorial: https://youtu.be/12nLaCDIqEc
 
-The hands-on exercises and real-world case studies in **SANS SEC530: Defensible Security Architecture and Engineering** that highlighted the challenges faced when sifting through data remnants. I got inspired to develop a project focused on cataloging and analyzing the history of directories could significantly aid in identifying potential indicators of compromise and understanding user activity over time.
+The hands-on exercises and real-world case studies in **SANS SEC530: Defensible Security Architecture and Engineering** that highlighted the challenges faced when sifting through data remnants. I got inspired to develop a project focused on cataloging and analyzing the history of directories where this shall aid in identifying potential indicators of compromise and understanding user activity over time.
 
 PowerShell script to scan directories within a specified path and report on directories that have not been accessed within a specified number of days. This is useful for system administrators who want to monitor directory access patterns, identify potentially abandoned directories, or optimize storage by removing or archiving unused folders.
 
